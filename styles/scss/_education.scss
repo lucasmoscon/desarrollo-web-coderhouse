@@ -1,0 +1,230 @@
+/*EDUCATION PAGE*/
+
+$azul: #4A33FF;
+$negro: #151113;
+
+.h1-education{
+    color: $negro;
+    font-family: codec-ultra;
+    font-size: 6rem;
+    text-align: center;
+    margin-top: 12rem;
+}
+.section-div-education{ /*Experience Cards + BACKGROUND*/
+    background-color: $azul;
+    border-radius: 0.6rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: grid;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 1fr; 
+}
+.section-div-education-1{ 
+    background-color: #4A33FF;
+    border-radius: 0.6rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: grid;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 0.5fr 1fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-div-education-2{
+    background-color: #4A33FF;
+    border-radius: 0.6rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: grid;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 0.7fr 1fr;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-div-education-3{ 
+    background-color: #4A33FF;
+    border-radius: 0.6rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: grid;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 0.7fr 1fr; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-div-education-4{ 
+    background-color: #4A33FF;
+    border-radius: 0.6rem;
+    margin-top: 3rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    display: grid;  
+	grid-template-columns: 2fr 1fr; 
+	grid-template-rows: 0.7fr 1fr; 
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.section-h2-education{ /*Experience Cards + BACKGROUND*/
+    color: white;
+    font-family: codec-bold-italic;
+    font-size: 5rem;
+    padding: 5.5rem 0rem 0rem 6rem;
+    grid-row: 1;
+    grid-column: 1;
+}
+.section-p-education{ /*Experience Cards + BACKGROUND*/
+    color: white;
+    font-family: codec-regular;
+    font-size: 2rem;
+    letter-spacing: 0.06rem;
+    line-height: 2rem;
+    opacity: 0.9;
+    padding: 2rem 0rem 2rem 6rem;
+    grid-row: 2;
+    grid-column: 1;
+}
+.image-education-book{
+    width: 16rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    grid-row: 1/3;
+    grid-column: 2;
+    justify-self: center;
+}
+.image-education-coin{
+    width: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    grid-row: 1/3;
+    grid-column: 2;
+    justify-self: center;
+}
+.image-education-equalizer{
+    width: 17rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    grid-row: 1/3;
+    grid-column: 2;
+    justify-self: center;
+}
+.image-education-pixel{
+    width: 20rem;
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    grid-row: 1/3;
+    grid-column: 2;
+    justify-self: center;
+}
+.h3-lets-talk{
+    color: #151113;
+    font-size: 4rem;
+    font-family: codec-ultra;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+@media only screen and (max-width: 450px) {
+    ul{ 
+        display: none;
+    }
+    .logo-size{
+        width: 3rem;
+    }
+    .h1-education{
+        font-size: 5rem;
+    }
+    .section-div-education-1{
+        display: grid;  
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 1.4fr 0.5fr;
+        margin: 4.5rem;  
+    }
+    .section-div-education-1:hover{
+        transform: scale(1.02);
+        transition: transform .2s ease-in-out;
+    }
+    .section-div-education-2{
+        display: grid;  
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 1.4fr 0.5fr;
+        margin: 4.5rem;   
+    }
+    .section-div-education-2:hover{
+        transform: scale(1.02);
+        transition: transform .2s ease-in-out;
+    }
+    .section-div-education-3{ /*Experience Cards + BACKGROUND*/
+        display: grid;  
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 1.4fr 0.5fr;
+        margin: 4.5rem;  
+    }
+    .section-div-education-3:hover{
+        transform: scale(1.02);
+        transition: transform .2s ease-in-out;
+    }
+    .section-div-education-4{ /*Experience Cards + BACKGROUND*/
+        display: grid;  
+        grid-template-columns: 1fr; 
+        grid-template-rows: 0.4fr 1.4fr 0.5fr;
+        margin: 4.5rem;  
+    }
+    .section-div-education-4:hover{
+        transform: scale(1.02);
+        transition: transform .2s ease-in-out;
+    }
+    .image-education-book{
+        grid-row: 3;
+        grid-column: 1;
+        justify-self: end;
+        align-self: center;
+        width: 8rem;
+        margin: 0rem;
+        padding: 1rem 3rem 2.5rem 0rem;
+    }
+    .image-education-coin{
+        grid-row: 3;
+        grid-column: 1;
+        justify-self: end;
+        align-self: center;
+        width: 8rem;
+        margin: 0rem;
+        padding: 1rem 3rem 2.5rem 0rem;
+    }
+    .image-education-equalizer{
+        grid-row: 3;
+        grid-column: 1;
+        justify-self: end;
+        align-self: center;
+        width: 8rem;
+        margin: 0rem;
+        padding: 1rem 3rem 2.5rem 0rem;
+    }
+    .image-education-pixel{
+        grid-row: 3;
+        grid-column: 1;
+        justify-self: end;
+        align-self: center;
+        width: 8rem;
+        margin: 0rem;
+        padding: 1rem 3rem 2.5rem 0rem;
+    }
+    .section-h2-education{ /*Experience Cards + BACKGROUND*/
+        grid-row: 1;
+        grid-column: 1;
+        margin: 0rem;
+        padding: 3rem 2rem 2rem 3rem;
+        font-size: 3.5rem;
+    }
+    .section-p-education{ /*Experience Cards + BACKGROUND*/
+        grid-row: 2;
+        grid-column: 1;
+        margin: 0rem;
+        padding: 1rem 4rem 1rem 3rem;
+        font-size: 1.5rem;
+    }
+}
