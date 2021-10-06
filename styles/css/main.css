@@ -1359,7 +1359,7 @@ footer div p {
     line-height: 2.75rem;
     padding: 0rem 0rem; }
   .h1-hero-image {
-    content: url("/assets/responsivegradient.jpg"); }
+    content: url("./assets/responsivegradient.jpg"); }
   .h1-hand {
     width: 3.5rem; }
   .about-me-1 {
