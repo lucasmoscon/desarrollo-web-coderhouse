@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -844,12 +843,15 @@ footer div p {
   /*Main Title + Hero Image*/
   color: #4A33FF; }
 
-.h1-hero-image {
+.h1-hero-image-desktop {
   width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: -0.1rem; }
+
+.h1-hero-image-mobile {
+  display: none; }
 
 .h1-hand {
   /*Main Title + Hero Image*/
@@ -1295,13 +1297,13 @@ footer div p {
     margin-bottom: 10rem;
     margin-top: 5rem; }
   .testimonials-image-1 {
-    content: url("/assets/testimonials-1–1.png"); }
+    content: url("/assets/mobile-testimonial-1.png"); }
   .testimonials-image-2 {
-    content: url("/assets/testimonials-1–2.png"); }
+    content: url("/assets/mobile-testimonial-2.png"); }
   .testimonials-image-3 {
-    content: url("/assets/testimonials-1–3.png"); }
+    content: url("/assets/mobile-testimonial-3.png"); }
   .testimonials-image-4 {
-    content: url("/assets/testimonials-1-4.png"); } }
+    content: url("/assets/mobile-testimonial-4.png"); } }
 
 /*RESPONSIVE INDEX*/
 @media only screen and (max-width: 450px) {
@@ -1352,14 +1354,20 @@ footer div p {
   .h1-index {
     font-size: 2.5rem;
     line-height: 2.75rem;
-    padding: 0rem 3.5rem;
-    margin-top: 8rem; }
+    padding: 0rem 4rem;
+    margin-top: 10rem; }
   .h1-index-2 {
     font-size: 2.5rem;
     line-height: 2.75rem;
     padding: 0rem 0rem; }
-  .h1-hero-image {
-    content: url("./assets/responsivegradient.jpg"); }
+  .h1-hero-image-desktop {
+    display: none; }
+  .h1-hero-image-mobile {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -0.1rem; }
   .h1-hand {
     width: 3.5rem; }
   .about-me-1 {
