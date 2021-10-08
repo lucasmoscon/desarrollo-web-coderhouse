@@ -1290,17 +1290,7 @@ footer div p {
 .button-color {
   color: black; }
 
-.testimonial-desktop {
-  display: inline-block; }
-
-.testimonial-mobile {
-  display: none; }
-
 @media only screen and (max-width: 450px) {
-  .testimonial-desktop {
-    display: none; }
-  .testimonial-mobile {
-    display: inline-block; }
   .testimonials-div {
     margin-left: 4rem;
     margin-right: 4rem;
