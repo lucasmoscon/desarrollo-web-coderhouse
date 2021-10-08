@@ -263,7 +263,7 @@ html{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    margin: 0rem 8rem;
+    margin: 0rem 10rem;
 }
 .div-experience-1{ /*Experience Section + DIVS*/
     background-color: #151113;
@@ -336,7 +336,7 @@ html{
     letter-spacing: 0.06rem;
     line-height: 1.5rem;
     justify-self: start;
-    padding: 0rem 4rem 2rem 4rem;
+    padding: 0rem 8rem 2rem 4rem;
 }
 .experience-link{ /*Experience Section + LINK*/
     color: white;
@@ -522,6 +522,10 @@ html{
     .responsive-buttons{
         padding: 1rem 4rem;
     }
+    .linkdin-logo{
+        width: 2.5rem;
+        margin-left: 0.5rem;
+    }
     .lets-talk-responsive{
         display: inline-block;
         background-color: #4A33FF; 
@@ -690,7 +694,8 @@ html{
         margin-bottom: 0rem;
     }
     .experience-p{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        line-height: 2rem;
         padding: 1rem 4rem;
         margin-bottom: 0rem;
         margin-top: 0rem;
