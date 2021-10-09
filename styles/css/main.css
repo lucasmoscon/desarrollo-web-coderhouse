@@ -1273,6 +1273,20 @@ footer div p {
   grid-template-columns: 30% 25% 15% 30%;
   place-items: center; }
 
+.signature {
+  background-color: #4A33FF;
+  display: flex;
+  justify-content: center; }
+
+.signature-text {
+  color: white;
+  font-size: 1.8rem;
+  font-family: codec-bold;
+  padding-top: 1rem; }
+
+.signature-emoji {
+  width: 6rem; }
+
 /*TESTIMONIALS - INDEX*/
 .h3-people-are-saying {
   color: #151113;
@@ -1314,7 +1328,7 @@ footer div p {
   .logo-size {
     width: 3rem; }
   .responsive-buttons {
-    padding: 1rem 4rem; }
+    padding: 1rem 2rem; }
   .linkdin-logo {
     width: 2.5rem;
     margin-left: 0.5rem; }
