@@ -146,6 +146,7 @@ html{
     margin-left: 12rem;
     margin-right: 12rem;
     border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .section-image-arrow-0{ /*Contact Form 1 + ARROW IMAGE*/
     display: block;
@@ -784,20 +785,10 @@ html{
     }
     .form-2-grid{
         grid-template-columns: 47% 53%;
-    }
-    .section-contact-form-input{
-        grid-row: 1;
-        grid-column: 1 / 3;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
-        margin-left: 0rem;
-        font-size: 1.8rem;
-        padding: 1rem 1.5rem;
-        width: 87%;
-        justify-self: center;
+        grid-template-rows: 1fr;
     }
     .section-contact-form-talk-button{
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 1;
         padding: 1rem 2rem;
         font-size: 1.8rem;
@@ -813,7 +804,7 @@ html{
         padding: 0.65rem 1.6rem;
     }
     .section-contact-form-download-button{
-        grid-row: 2;
+        grid-row: 1;
         grid-column: 2;
         margin-bottom: 3.5rem;
         margin-top: 1rem;
