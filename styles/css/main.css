@@ -458,7 +458,7 @@ footer div p {
   font-size: 4rem;
   font-family: codec-ultra;
   text-align: center;
-  margin-top: 8rem; }
+  margin-top: 15rem; }
 
 @media only screen and (max-width: 450px) {
   ul {
@@ -794,6 +794,14 @@ footer div p {
     margin-top: 12rem;
     text-align: center; } }
 
+/*CONTACT ME PAGE*/
+.h1-contact-me {
+  color: #151113;
+  font-family: codec-ultra;
+  font-size: 6rem;
+  text-align: center;
+  margin-top: 12rem; }
+
 @font-face {
   font-family: codec-light;
   src: url(../fonts/CodecPro-Light.ttf); }
@@ -861,14 +869,12 @@ footer div p {
 .lets-talk-responsive {
   display: none;
   grid-column: 1;
-  grid-row: 1;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+  grid-row: 1; }
 
 .download-cv-responsive {
   display: none;
   grid-column: 2;
-  grid-row: 1;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; }
+  grid-row: 1; }
 
 .responsive-buttons {
   display: grid;
@@ -1006,6 +1012,10 @@ footer div p {
   width: 2.8rem;
   margin-left: 1.2rem; }
 
+.linkedin-logo-contact {
+  width: 2.8rem;
+  margin-left: 1.2rem; }
+
 .section-contact-form-download-button {
   /*Contact Form 1 + DOWNLOAD CV*/
   background-color: #4A33FF;
@@ -1029,7 +1039,7 @@ footer div p {
   font-size: 4.4rem;
   font-family: codec-ultra;
   text-align: center;
-  margin-top: 4rem; }
+  margin-top: 8rem; }
 
 .experience-h2 {
   /*Experience Section + H2*/
@@ -1211,6 +1221,18 @@ footer div p {
   font-size: 4rem;
   padding: 4rem 4rem 4rem 8rem; }
 
+.education-p-2-digital-marketing {
+  grid-row: 2;
+  grid-column: 1;
+  color: white;
+  opacity: 0.85;
+  font-family: codec-regular;
+  font-size: 1.8rem;
+  letter-spacing: 0.06rem;
+  line-height: 2rem;
+  padding: 0rem 8rem;
+  margin-bottom: 3rem; }
+
 .education-p-2 {
   grid-row: 2;
   grid-column: 1;
@@ -1286,25 +1308,83 @@ footer div p {
 .button-color {
   color: black; }
 
-@media only screen and (max-width: 450px) {
-  .testimonials-div {
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-bottom: 10rem;
-    margin-top: 5rem; }
-  .h3-lets-talk {
-    margin-top: 0rem; }
-  .testimonials-image-1 {
-    content: url("/assets/mobile-testimonial-1.png"); }
-  .testimonials-image-2 {
-    content: url("/assets/mobile-testimonial-2.png"); }
-  .testimonials-image-3 {
-    content: url("/assets/mobile-testimonial-3.png"); }
-  .testimonials-image-4 {
-    content: url("/assets/mobile-testimonial-4.png"); } }
-
 /*RESPONSIVE INDEX*/
+@media only screen and (max-width: 1050px) {
+  /*HEADER*/
+  .navbar {
+    margin: 0rem;
+    padding: 0rem; }
+  .container {
+    margin: 0rem;
+    padding: 0rem; }
+  .nav-link {
+    font-size: 1.7rem; }
+  .h1-index {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    font-size: 3.6rem; }
+  .h1-hand {
+    width: 4rem; }
+  .nav-button-b {
+    font-size: 1.5rem;
+    margin-left: 1.5rem; }
+  .linkedin-logo {
+    width: 2rem; }
+  /*ABOUT ME*/
+  .background-black-1 {
+    justify-content: center;
+    padding: 4rem 1.6rem 12rem 1.6rem;
+    grid-template-columns: 25% 25% 28% 22%; }
+  .section-about-me-div {
+    margin: 1.2rem; }
+  .section-about-me-h3 {
+    font-size: 2.2rem; }
+  .image-google {
+    height: 4.2rem; }
+  .section-about-me-p {
+    font-size: 1.3rem; }
+  .about-me-4 {
+    margin-right: 0rem; }
+  /*CONTACT FORM 1*/
+  .section-contact-form-h2 {
+    margin-left: 11rem;
+    margin-right: 11rem;
+    font-size: 3.2rem; }
+  .linkedin-logo-contact {
+    width: 2.9rem;
+    margin-left: .8rem; }
+  /*EXPERIENCE*/
+  .experience-p {
+    padding-bottom: 0rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: .06rem; }
+  /*EDUCATION*/
+  .education-h2 {
+    padding-bottom: 1rem; }
+  .div-2-education {
+    margin: 0rem 6rem;
+    padding-bottom: 4rem; }
+  .div-3-education {
+    margin: 0rem 6rem;
+    padding-bottom: 4rem; }
+  .education-h3 {
+    padding-left: 6rem;
+    padding-bottom: 2rem; }
+  .education-p-2-digital-marketing {
+    padding-left: 6rem;
+    padding-right: 4rem; }
+  .education-p-2 {
+    padding-left: 6rem; }
+  .education-a {
+    padding-right: 5rem; }
+  /*TESTIMONIALS*/
+  .testimonials-div {
+    margin: 5rem 10rem 10rem 10rem; } }
+
 @media only screen and (max-width: 450px) {
+  .container {
+    margin: .8rem 2.5rem; }
   ul {
     display: none; }
   .logo-size {
@@ -1369,6 +1449,10 @@ footer div p {
     margin-top: -0.1rem; }
   .h1-hand {
     width: 3.5rem; }
+  /*ABOUT ME*/
+  .background-black-1 {
+    grid-template-columns: 54% 46%;
+    grid-template-rows: 50% 50%; }
   .about-me-1 {
     grid-row: 1;
     grid-column: 2;
@@ -1414,7 +1498,7 @@ footer div p {
   .experience-section {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    margin: 3rem; }
+    margin: 3rem 2rem; }
   .div-experience-1 {
     grid-row: 1;
     grid-column: 1;
@@ -1458,43 +1542,61 @@ footer div p {
   /*EDUCATION*/
   .background-black-2 {
     padding-bottom: 0rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     margin-bottom: 15rem; }
   .div-1-education {
     grid-column: 1;
     grid-template-columns: 100%; }
   .education-p-1 {
-    padding: 0rem 0.4rem;
+    padding: 0rem 2rem;
     font-size: 1.4rem;
     margin: 0rem; }
   .div-2-education {
-    margin: 0rem 1rem;
-    padding: 1rem 1rem 2rem 2rem;
+    margin: 0rem 2rem;
+    padding: 0rem;
     margin-bottom: 2rem; }
-  .education-h3 {
-    font-size: 2.8rem;
-    margin-bottom: 1rem;
-    margin-top: 1rem;
-    padding: 1rem; }
-  .education-p-2 {
-    font-size: 1.4rem;
-    padding: 0rem 4rem 0rem 1rem; }
   .div-3-education {
     grid-row: 3;
-    grid-column: 1; }
+    grid-column: 1;
+    margin: 0rem 2rem;
+    padding: 0rem;
+    margin-bottom: 2rem; }
+  .education-h3 {
+    font-size: 3rem;
+    margin: 3rem 0rem 2rem 3rem;
+    padding: 0rem; }
+  .education-p-2-digital-marketing {
+    font-size: 1.4rem;
+    padding: 0rem 4rem 0rem 3rem; }
+  .education-p-2 {
+    font-size: 1.4rem;
+    padding: 0rem 4rem 0rem 3rem; }
   .education-a {
     grid-row: 3;
     grid-column: 1;
     font-size: 1.6rem;
-    justify-self: end;
-    padding-right: 3rem; }
+    padding: 0rem 3rem 2.4rem 0rem; }
   .education-a:hover {
     font-size: 1.7rem;
     font-family: codec-bold;
     color: white; }
-  .div-3-education {
-    margin: 0rem 1rem;
-    padding: 1rem 1rem 2rem 2rem;
-    margin-bottom: 4rem; }
+  /*TESTIMONIALS FORM*/
+  .testimonials-div {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 10rem;
+    margin-top: 5rem; }
+  .h3-lets-talk {
+    margin-top: 0rem; }
+  .testimonials-image-1 {
+    content: url("/assets/mobile-testimonial-1.png"); }
+  .testimonials-image-2 {
+    content: url("/assets/mobile-testimonial-2.png"); }
+  .testimonials-image-3 {
+    content: url("/assets/mobile-testimonial-3.png"); }
+  .testimonials-image-4 {
+    content: url("/assets/mobile-testimonial-4.png"); }
   /*CONTACT FORM*/
   .background-blue-pages {
     margin: 5rem 3.5rem 5rem 3.5rem; }
@@ -1540,3 +1642,61 @@ footer div p {
     padding: 0rem 2rem; }
   .signature-text {
     font-size: 1.5rem; } }
+
+@media only screen and (max-width: 385px) {
+  .background-black-1 {
+    grid-template-columns: 50% 50%; } }
+
+@media only screen and (max-width: 350px) {
+  /*HERO SECTION*/
+  .container {
+    margin: 1rem 2rem; }
+  .responsive-buttons {
+    padding: 1rem 2rem;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr; }
+  .lets-talk-responsive {
+    font-size: 2rem; }
+  .linkdin-logo {
+    margin-left: 1rem;
+    width: 2.8rem; }
+  .download-cv-responsive {
+    font-size: 2rem; }
+  /*ABOUT ME*/
+  .background-black-1 {
+    justify-content: center;
+    padding: 2rem 0.5rem 2rem 2rem; }
+  .section-about-me-div {
+    margin-left: 1rem; }
+  .section-about-me-p {
+    font-size: 1.2rem; }
+  /*EXPERIENCE*/
+  .experience-section {
+    margin: 0rem 1rem; }
+  /*EDUCATION*/
+  .background-black-2 {
+    margin-bottom: 10rem; }
+  /*TESTIMONIALS*/
+  .h3-people-are-saying {
+    margin-top: 3rem; }
+  .testimonials-div {
+    margin: 2rem 2rem 10rem 2rem; }
+  /*CONTACT FORM*/
+  .background-blue-pages {
+    margin-left: 2rem;
+    margin-right: 2rem; }
+  .section-contact-form-h2 {
+    margin-left: 1.3rem;
+    margin-right: 1.3rem; }
+  .section-contact-form-talk-button {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+  .section-contact-form-download-button {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; }
+  /*SIGNATURE*/
+  .signature {
+    padding: 0rem 2rem; }
+  .signature-text {
+    font-size: 1.4rem; }
+  .signature-emoji {
+    width: 4rem; } }
