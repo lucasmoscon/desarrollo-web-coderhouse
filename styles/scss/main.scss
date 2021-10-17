@@ -36,7 +36,6 @@ html{
     src: url(../fonts/CodecPro-Ultra.ttf);
 }
 
-
 /*INDEX*/
 
 
@@ -134,7 +133,7 @@ html{
 .background-blue-index{ /*Contact Form 1 + BACKGROUND*/
     background-color: #4A33FF; 
     align-content: center;
-    margin-top: -12rem;
+    margin-top: -6rem;
     margin-left: 12rem;
     margin-right: 12rem;
     border-radius: 0.8rem;
@@ -148,14 +147,27 @@ html{
     border-radius: 0.8rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.section-image-arrow-0{ /*Contact Form 1 + ARROW IMAGE*/
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 7.8rem;
-    transform: translateY(2rem);
-    grid-row: 2;
-    grid-column: 1 / 5;
+
+/*CONTACT SECTION*/
+
+.background-blue-index{ /*Contact Form 1 + BACKGROUND*/
+    background-color: #4A33FF; 
+    align-content: center;
+    margin-top: -6rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.background-blue-pages{ /*Contact Form 1 + BACKGROUND*/
+    background-color: #4A33FF; 
+    align-content: center;
+    margin-top: 8rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
+    margin-bottom: 12rem;
+    border-radius: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .section-image-arrow{ /*Contact Form 1 + ARROW IMAGE*/
     display: block;
@@ -166,18 +178,6 @@ html{
     grid-row: 2;
     grid-column: 1 / 5;
 }
-.section-contact-form-h2-0{ /*Contact Form 1 - H2*/
-    color: white;
-    font-family: codec-ultra;
-    font-size: 3.8rem;
-    text-align: center;
-    letter-spacing: 0.15rem;
-    line-height: 4.2rem;
-    padding-top: 5.5rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    margin: 0rem 4rem 4rem 4rem;
-}
 .section-contact-form-h2{ /*Contact Form 1 - H2*/
     color: white;
     font-family: codec-ultra;
@@ -185,49 +185,37 @@ html{
     text-align: center;
     letter-spacing: 0.15rem;
     line-height: 4.2rem;
-    padding-top: 0rem;
-    padding-left: 20rem;
-    padding-right: 20rem;
-    margin: 0rem 4rem 4rem 4rem;
+    margin: 0rem 20rem 3rem 20rem;
 }
-.section-contact-form-input{ /*Contact Form 1 - INPUT*/
-    background-color: #252D80;
-    color: white;
-    font-size: 2.2rem;
-    font-family: codec-regular;
-    border-radius: 10rem;
-    border: none;
-    padding: 1.2rem 2rem;
-    justify-self: end;
-    margin-bottom: 4rem;
-    width: 65%;
-    grid-row: 1;
-    grid-column: 1 / span 2;
+.form-2-grid{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
 }
-.section-contact-form-talk-button{ /*Contact Form 1 + LETS TALK*/
-    background-color: white; 
-    border-radius: 10rem; 
-    color: #151113; 
-    border: none;
-    text-align: center;
+.a-contact{
+    display: grid;
     text-decoration: none;
-    font-family: codec-extra-bold;
-    font-size: 2.2rem;
-    grid-row: 1;
-    grid-column: 3;
-    padding: 1.2rem 3rem;    
-    margin-bottom: 4rem;
-    margin-left: 1rem;
 }
-.section-contact-form-talk-button:hover{
-    background-color: #4A33FF;
-    color: white;
-    transition: background-color .5s;
-    cursor: pointer;
+.section-contact-form-talk-button{ /*Contact Form + LETS TALK*/
+    background-color: white; 
+    color: $azul;
     border-radius: 10rem; 
     border-style: solid;
     border-color: white;
     border-width: 0.35rem;
+    text-decoration: none;
+    font-family: codec-extra-bold;
+    font-size: 2.2rem;
+    padding: 1rem 3rem;
+    justify-self: flex-end;
+    margin: 0rem 5rem 4rem 0rem;
+}
+.section-contact-form-talk-button:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.linkedin-logo{
+    width: 2.8rem;
+    margin-left: 1.2rem;
 }
 .section-contact-form-download-button{ /*Contact Form 1 + DOWNLOAD CV*/
     background-color: #4A33FF; 
@@ -236,23 +224,27 @@ html{
     border-style: solid;
     border-color: white;
     border-width: 0.35rem;
-    text-align: center;
     text-decoration: none;
     font-family: codec-extra-bold;
-    font-size: 1.7rem;
-    padding: 1.2rem 3rem;    
-    margin-bottom: 4rem;
-    margin-left: 1rem;
-    justify-self: start;
-    grid-row: 1;
-    grid-column: 4;
+    font-size: 2.2rem;
+    padding: 1rem 3rem;
+    justify-self: flex-start;
+    margin: 0rem 0rem 4rem 5rem;
 }
 .section-contact-form-download-button:hover{
-    background-color: white;
-    color: #4A33FF;
-    transition: background-color .5s;
-    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+.h3-lets-talk{
+    color: #151113;
+    font-size: 4.4rem;
+    font-family: codec-ultra;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+
+
 .experience-h2{ /*Experience Section + H2*/
     color:#4A33FF;
     font-family: codec-ultra;
@@ -462,12 +454,6 @@ html{
     grid-row: 1;
     grid-column: 4;
 }
-.form-2-grid{
-    display: grid;
-    grid-template-columns: 30% 25% 15% 30%;
-    place-items: center;
-}
-
 .signature{
     background-color: #4A33FF;
     display: flex;
@@ -537,6 +523,9 @@ html{
     }
     .responsive-buttons{
         padding: 1rem 2rem;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 50% 50%;
     }
     .linkdin-logo{
         width: 2.5rem;
@@ -556,11 +545,8 @@ html{
         margin: 1rem 0rem;
     }
     .lets-talk-responsive:hover{
-        background-color: white;
-        color: #151113;
-        transition: background-color .5s;
         cursor: pointer;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     .download-cv-responsive{
         display: inline-block;
@@ -577,9 +563,7 @@ html{
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     }
     .download-cv-responsive:hover{
-        background-color: #4A33FF;
-        color: white;
-        transition: background-color .5s;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
         cursor: pointer;
     }
     .nav-button{
@@ -663,6 +647,7 @@ html{
     }
 
     /*EXPERIENCE*/
+
     .experience-section{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -772,48 +757,37 @@ html{
     /*CONTACT FORM*/
 
     .background-blue-pages{
-        margin-top: 5rem;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
+        margin: 5rem 3.5rem 5rem 3.5rem;
     }
     .section-contact-form-h2{
         font-size: 2.5rem;
-        padding: 0rem 1rem;
-        margin: 0rem 1rem;
+        padding: 0rem 0.5rem;
+        margin: 0rem 2.5rem 1rem 2.5rem;
         line-height: 3rem;
         font-family: codec-extra-bold;
     }
     .form-2-grid{
-        grid-template-columns: 47% 53%;
-        grid-template-rows: 1fr;
+        grid-template-rows: 50% 50%;
+        grid-template-columns: 1fr;
+        place-items: center;
     }
     .section-contact-form-talk-button{
         grid-row: 1;
         grid-column: 1;
-        padding: 1rem 2rem;
         font-size: 1.8rem;
-        margin-bottom: 3.5rem;
-        margin-top: 1rem;
-        margin-left: 3.5rem;
+        margin: 2rem 2rem 1.5rem 2rem;
+        padding: 1rem 2.5rem;
     }
     .section-contact-form-talk-button:hover{
-        border-radius: 7rem; 
-        border-style: solid;
-        border-color: white;
-        border-width: 0.35rem;
-        padding: 0.65rem 1.6rem;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
     .section-contact-form-download-button{
-        grid-row: 1;
-        grid-column: 2;
-        margin-bottom: 3.5rem;
-        margin-top: 1rem;
-        margin-left: 1rem;
-        margin-right: 1.2rem;
-        padding: 0.7rem 2rem;
-        font-size: 1.6rem;
+        grid-row: 2;
+        grid-column: 1;
+        font-size: 1.8rem;
+        margin: .8rem 2rem 4rem 2rem;
+        padding: 1rem 2.9rem;
     }
-
 
     /*FOOTER*/
 
@@ -832,17 +806,21 @@ html{
         grid-column: 1;
         justify-self: start;
     }
+
+    /*SIGNATURE*/
+
+    .signature{
+        padding: 0rem 2rem;
+    }
+    .signature-text{
+        font-size: 1.5rem;
+    }
+
 }
 
-/*CONTACT ME PAGE*/
 
-.h1-contact-me{
-    color: #151113;
-    font-family: codec-ultra;
-    font-size: 6rem;
-    text-align: center;
-    margin-top: 12rem;
-}
-.ojalafuncione{
-    color: red;
+
+@media only screen and (max-width: 325px) {
+
+
 }
