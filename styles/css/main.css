@@ -1048,6 +1048,7 @@ footer div p {
   text-align: center;
   margin-top: 8rem; }
 
+/*EXPERIENCE*/
 .experience-h2 {
   /*Experience Section + H2*/
   color: #4A33FF;
@@ -1220,6 +1221,14 @@ footer div p {
 .div-3-b-education {
   display: grid; }
 
+.education-h3-digital-marketing {
+  grid-row: 1;
+  grid-column: 1;
+  color: white;
+  font-family: codec-bold-italic;
+  font-size: 4rem;
+  padding: 4rem 4rem 4rem 8rem; }
+
 .education-h3 {
   grid-row: 1;
   grid-column: 1;
@@ -1321,8 +1330,14 @@ footer div p {
   .navbar {
     margin: 0rem;
     padding: 0rem; }
+  .navbar-toggler {
+    border: none;
+    font-size: 1.9rem; }
+  .navbar-toggler:hover {
+    animation: none; }
   .container-fluid {
-    margin-left: -3rem;
+    margin-left: 0.4rem;
+    margin-right: 3rem;
     padding: 0rem; }
   .nav-link {
     font-size: 1.7rem; }
@@ -1387,12 +1402,21 @@ footer div p {
     padding-right: 5rem; }
   /*TESTIMONIALS*/
   .testimonials-div {
-    margin: 5rem 10rem 10rem 10rem; } }
+    margin: 5rem 10rem 10rem 10rem; }
+  footer {
+    margin: 5rem 12rem;
+    grid-template-columns: 30% 40% 30%; }
+  .footer-prueba-1 {
+    justify-self: start; }
+  .footer-prueba-2 {
+    justify-self: start; }
+  .footer-prueba-3 {
+    justify-self: start; } }
 
 @media only screen and (max-width: 768px) {
   /*HERO SECTION*/
   .navbar {
-    padding: 0rem 2rem 0rem 0rem; }
+    padding: 0rem 0rem 0rem 2.5rem; }
   .h1-index {
     padding: 0rem 9rem;
     margin-top: 8.5rem;
@@ -1461,9 +1485,10 @@ footer div p {
 
 @media only screen and (max-width: 450px) {
   .navbar {
-    padding: 0rem; }
-  .container {
-    margin: .8rem 2.5rem; }
+    padding: 0.2rem 0rem .2rem 1.5rem; }
+  .container-fluid {
+    margin-left: 1.5rem;
+    margin-right: 1rem; }
   .nav-link {
     font-size: 1.9rem; }
   ul {
@@ -1634,30 +1659,34 @@ footer div p {
     font-size: 1.4rem;
     margin: 0rem; }
   .div-2-education {
-    margin: 0rem 2rem;
-    padding: 0rem;
-    margin-bottom: 2rem; }
+    margin: -3rem 2rem 3rem 2rem;
+    padding: 0rem; }
   .div-3-education {
     grid-row: 3;
     grid-column: 1;
     margin: 0rem 2rem;
     padding: 0rem;
-    margin-bottom: 2rem; }
+    margin-bottom: 1rem; }
+  .education-h3-digital-marketing {
+    font-size: 3rem;
+    margin: 3rem 4.7rem 2rem 3rem;
+    padding: 0rem; }
   .education-h3 {
     font-size: 3rem;
-    margin: 3rem 0rem 2rem 3rem;
+    margin: 3rem 1.5rem 2rem 3rem;
     padding: 0rem; }
   .education-p-2-digital-marketing {
     font-size: 1.4rem;
-    padding: 0rem 4rem 0rem 3rem; }
+    padding: 0rem 3rem 0rem 3rem; }
   .education-p-2 {
     font-size: 1.4rem;
-    padding: 0rem 4rem 0rem 3rem; }
+    padding: 0rem 5rem 0rem 3rem; }
   .education-a {
     grid-row: 3;
     grid-column: 1;
     font-size: 1.6rem;
-    padding: 0rem 3rem 2.4rem 0rem; }
+    padding: 0rem 3rem 2.5rem 0rem;
+    margin: 0rem; }
   .education-a:hover {
     font-size: 1.7rem;
     font-family: codec-bold;
@@ -1770,7 +1799,9 @@ footer div p {
     margin: 0rem 1rem; }
   /*EDUCATION*/
   .background-black-2 {
-    margin-bottom: 10rem; }
+    margin-bottom: 12.5rem; }
+  .education-p-2 {
+    padding-right: 4rem; }
   /*TESTIMONIALS*/
   .h3-people-are-saying {
     margin-top: 3rem; }
