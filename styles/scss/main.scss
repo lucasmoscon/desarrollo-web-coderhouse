@@ -40,7 +40,9 @@ html{
 
 /*INDEX*/
 
-
+.navbar{
+    padding: 0rem 2rem;
+}
 .h1-index{ /*Main Title + Hero Image*/
     text-align: center; 
     color: #151113; 
@@ -510,7 +512,7 @@ html{
 
 
 
-@media only screen and (max-width: 1050px) {
+@media only screen and (max-width: 1150px) {
 
     /*HEADER*/
 
@@ -518,16 +520,16 @@ html{
         margin: 0rem;
         padding: 0rem;
     }
-    .container{
-        margin: 0rem;
-        padding: 0rem;
+    .container-fluid{
+        margin-left: -3rem;
+        padding: 0rem
     }
     .nav-link{
         font-size: 1.7rem;
     }
     .h1-index{
-        padding-left: 8rem;
-        padding-right: 8rem;
+        padding-left: 15rem;
+        padding-right: 15rem;
         font-size: 3.6rem;
     }
     .h1-hand{
@@ -620,11 +622,124 @@ html{
     }
 }
 
+@media only screen and (max-width: 768px) {
+
+    /*HERO SECTION*/
+
+    .navbar{
+        padding: 0rem 2rem 0rem 0rem;
+    }
+    .h1-index{
+        padding: 0rem 9rem;
+        margin-top: 8.5rem;
+        font-size: 3.2rem;
+    }
+
+    /*ABOUT ME*/
+
+    .background-black-1{
+        padding: 3.5rem 0rem 6rem 0rem;
+        margin-bottom: 4rem;
+    }
+    .section-about-me-h3{
+        font-size: 1.6rem;
+    }
+    .image-google{
+        height: 3rem;
+    }
+    
+    /*CONTACT FORM 1*/
+
+    .background-blue-index{
+        margin-left: 6rem;
+        margin-right: 6rem;
+    }
+    .section-contact-form-h2{
+        font-size: 2.4rem;
+        margin: -2rem 7rem 1rem 7rem;
+        line-height: 3rem;
+    }
+    .section-contact-form-talk-button{
+        font-size: 1.8rem;
+        margin: 1rem 2rem 4rem 0rem;
+    }
+    .linkedin-logo-contact{
+        width: 2.5rem;
+    }
+    .section-contact-form-download-button{
+        font-size: 1.8rem;
+        margin: 1rem 0rem 4rem 2rem;
+    }
+
+    /*EXPERIENCE*/
+    
+    .experience-section{
+        margin: 0rem 7rem;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(4);
+    }
+
+    /*EDUCATION*/
+
+    .background-black-2{}
+
+    .div-education-0{
+        grid-template-columns: 100%;
+        grid-template-rows: 20% 40% 40%;
+        margin: auto;
+    }   
+    .education-p-1{
+        padding: 0rem 4rem;
+    }
+    .div-2-education{
+        grid-column: 1;
+        grid-row: 2;
+        margin-top: -2rem;
+        margin-bottom: 4rem;
+        padding-bottom: 4rem;
+    }
+    .div-3-education{
+        grid-column: 1;
+        grid-row: 3;
+        margin-top: 0rem;
+        padding-bottom: 5rem;
+    }
+    .education-p-2{
+        margin-bottom: 4rem;
+    }
+
+    /*CONTACT FORM 2*/
+
+    .background-blue-pages{
+        margin: 6rem 5rem 10rem 5rem;
+    }
+
+    footer{
+        margin: 3rem 5rem;
+        grid-template-columns: 28% 36% 33%;
+    }
+    .footer-prueba-1{
+        justify-self: start;
+    }
+    .footer-prueba-2{
+        justify-self: start;
+    }
+    .footer-prueba-3{
+        justify-self: start;
+    }
+}
+
 @media only screen and (max-width: 450px) {
 
+    .navbar{
+        padding: 0rem;
+    }
     .container{
         margin: .8rem 2.5rem;
 
+    }
+    .nav-link{
+        font-size: 1.9rem;
     }
     ul{ 
     display: none;
@@ -937,6 +1052,10 @@ html{
 
     /*FOOTER*/
 
+    footer{
+        grid-template-rows: repeat(3);
+        grid-template-columns: 100%;
+    }
     .footer-prueba-1{
         grid-row: 1;
         grid-column: 1;
@@ -967,6 +1086,18 @@ html{
 @media only screen and (max-width: 385px) {
     .background-black-1{
         grid-template-columns: 50% 50%;
+    }
+    .education-h3{
+        margin-right: 2rem;
+    }
+    .education-p-2-digital-marketing{
+        margin-bottom: 3rem;
+    }
+    .education-p-2{
+        margin-bottom: 3rem;
+    }
+    .education-a{
+        margin-bottom: 1.2rem;
     }
 
 }
@@ -999,13 +1130,16 @@ html{
 
     .background-black-1{
         justify-content: center;
-        padding: 2rem 0.5rem 2rem 2rem;
+        padding: 2rem 0.5rem 2rem 3rem;
     }
     .section-about-me-div{
         margin-left: 1rem;
     }
     .section-about-me-p{
         font-size: 1.2rem;
+    }
+    .image-google{
+        height: 3rem;
     }
     
 
