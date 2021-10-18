@@ -109,9 +109,9 @@
     grid-row: 2;
     grid-column: 1;
 }
-.h3-lets-talk{
+.lets-talk{
     color: #151113;
-    font-size: 4.4rem;
+    font-size: 4rem;
     font-family: codec-ultra;
     text-align: center;
     margin-top: 8rem;
@@ -131,7 +131,7 @@
         display: grid;  
         grid-template-columns: 1fr; 
         grid-template-rows: 0.4fr 1.4fr 0.5fr;
-        margin: 4.5rem;  
+        margin: 4.5rem 3rem;  
     }
     .section-div-experience-1:hover{
         transform: scale(1.02);
@@ -141,7 +141,7 @@
         display: grid;  
         grid-template-columns: 1fr; 
         grid-template-rows: 0.4fr 1.4fr 0.5fr;
-        margin: 4.5rem;   
+        margin: 4.5rem 3rem;   
     }
     .section-div-experience-2:hover{
         transform: scale(1.02);
@@ -151,7 +151,7 @@
         display: grid;  
         grid-template-columns: 1fr; 
         grid-template-rows: 0.4fr 1.4fr 0.5fr;
-        margin: 4.5rem;  
+        margin: 4.5rem 3rem;  
     }
     .section-div-experience-3:hover{
         transform: scale(1.02);
@@ -161,7 +161,7 @@
         display: grid;  
         grid-template-columns: 1fr; 
         grid-template-rows: 0.4fr 1.4fr 0.5fr;
-        margin: 4.5rem;  
+        margin: 4.5rem 3rem;  
     }
     .section-div-experience-4:hover{
         transform: scale(1.02);

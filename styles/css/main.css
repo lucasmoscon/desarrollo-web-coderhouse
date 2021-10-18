@@ -238,9 +238,9 @@ footer div p {
   grid-row: 2;
   grid-column: 1; }
 
-.h3-lets-talk {
+.lets-talk {
   color: #151113;
-  font-size: 4.4rem;
+  font-size: 4rem;
   font-family: codec-ultra;
   text-align: center;
   margin-top: 8rem; }
@@ -256,7 +256,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-experience-1:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -264,7 +264,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-experience-2:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -273,7 +273,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-experience-3:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -282,7 +282,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-experience-4:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -453,12 +453,12 @@ footer div p {
   grid-column: 2;
   justify-self: center; }
 
-.h3-lets-talk {
+.lets-talk {
   color: #151113;
   font-size: 4rem;
   font-family: codec-ultra;
   text-align: center;
-  margin-top: 15rem; }
+  margin-top: 8rem; }
 
 @media only screen and (max-width: 450px) {
   ul {
@@ -471,7 +471,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-education-1:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -479,7 +479,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-education-2:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -488,7 +488,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-education-3:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -497,7 +497,7 @@ footer div p {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.4fr 1.4fr 0.5fr;
-    margin: 4.5rem; }
+    margin: 4.5rem 3rem; }
   .section-div-education-4:hover {
     transform: scale(1.02);
     transition: transform .2s ease-in-out; }
@@ -547,6 +547,10 @@ footer div p {
     margin: 0rem;
     padding: 1rem 4rem 1rem 3rem;
     font-size: 1.5rem; } }
+
+@media only screen and (max-width: 372px) {
+  .div__1__h2 {
+    padding-top: 0rem; } }
 
 /*TESTIMONIALS PAGE*/
 .section {
@@ -679,7 +683,8 @@ footer div p {
   color: #151113;
   font-size: 4rem;
   font-family: codec-ultra;
-  text-align: center; }
+  text-align: center;
+  margin-top: 8rem; }
 
 @media screen and (max-width: 450px) {
   .section {
@@ -693,7 +698,7 @@ footer div p {
     grid-column: 1;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 3rem 5rem;
+    margin: 3rem 3.1rem;
     padding: 1.5rem;
     border-radius: 0.3rem; }
   .section__div__2 {
@@ -701,7 +706,7 @@ footer div p {
     grid-column: 1;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 3rem 5rem;
+    margin: 3rem 3.1rem;
     padding: 1.5rem;
     border-radius: 0.3rem; }
   .section__div__3 {
@@ -709,7 +714,7 @@ footer div p {
     grid-column: 1;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 3rem 5rem;
+    margin: 3rem 3.1rem;
     padding: 1.5rem;
     border-radius: 0.3rem; }
   .section__div__4 {
@@ -717,7 +722,7 @@ footer div p {
     grid-column: 1;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 3rem 5rem;
+    margin: 3rem 3.1rem;
     padding: 1.5rem;
     border-radius: 0.3rem; }
   .section__div__5 {
@@ -725,7 +730,7 @@ footer div p {
     grid-column: 1;
     background-color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    margin: 3rem 5rem 6rem 5rem;
+    margin: 3rem 3.1rem 6rem 3.1rem;
     padding: 1.5rem;
     border-radius: 0.3rem; }
   .div__1__img__fortu {
@@ -1485,10 +1490,10 @@ footer div p {
 
 @media only screen and (max-width: 450px) {
   .navbar {
-    padding: 0.2rem 0rem .2rem 1.5rem; }
+    padding: 0.2rem 0rem .2rem 0rem; }
   .container-fluid {
-    margin-left: 1.5rem;
-    margin-right: 1rem; }
+    margin-left: 2rem;
+    margin-right: 2rem; }
   .nav-link {
     font-size: 1.9rem; }
   ul {
@@ -1666,10 +1671,10 @@ footer div p {
     grid-column: 1;
     margin: 0rem 2rem;
     padding: 0rem;
-    margin-bottom: 1rem; }
+    margin-bottom: -1rem; }
   .education-h3-digital-marketing {
     font-size: 3rem;
-    margin: 3rem 4.7rem 2rem 3rem;
+    margin: 3rem 5.6rem 2rem 3rem;
     padding: 0rem; }
   .education-h3 {
     font-size: 3rem;
@@ -1709,7 +1714,7 @@ footer div p {
     content: url("/assets/mobile-testimonial-4.png"); }
   /*CONTACT FORM*/
   .background-blue-pages {
-    margin: 5rem 3.5rem 5rem 3.5rem; }
+    margin: 5rem 3rem 5rem 3rem; }
   .section-contact-form-h2 {
     font-size: 2.5rem;
     padding: 0rem 0.5rem;
