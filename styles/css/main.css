@@ -331,7 +331,7 @@ footer div p {
     grid-column: 1;
     margin: 0rem;
     padding: 1rem 4rem 1rem 3rem;
-    font-size: 1.5rem; } }
+    font-size: 1.65rem; } }
 
 /*EDUCATION PAGE*/
 .h1-education {
@@ -546,7 +546,7 @@ footer div p {
     grid-column: 1;
     margin: 0rem;
     padding: 1rem 4rem 1rem 3rem;
-    font-size: 1.5rem; } }
+    font-size: 1.65rem; } }
 
 @media only screen and (max-width: 372px) {
   .div__1__h2 {
