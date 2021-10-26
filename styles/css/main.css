@@ -1398,6 +1398,9 @@ footer div p {
   .education-h3 {
     padding-left: 6rem;
     padding-bottom: 2rem; }
+  .education-h3-digital-marketing {
+    padding-left: 6rem;
+    padding-bottom: 2rem; }
   .education-p-2-digital-marketing {
     padding-left: 6rem;
     padding-right: 4rem; }
@@ -1486,7 +1489,9 @@ footer div p {
   .footer-prueba-2 {
     justify-self: start; }
   .footer-prueba-3 {
-    justify-self: start; } }
+    justify-self: start; }
+  .education-h3-digital-marketing {
+    padding-left: 6rem; } }
 
 @media only screen and (max-width: 450px) {
   .navbar {
